@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+   <!-- BOOTSTRAP CSS -->
+   <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
+
+   <!-- CUSTOME CSS -->
+   <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="configuration">
+
+
+
+
+      
+        <div class="container-fluid">
+            <nav class="nav justify-content-evenly">
+                <a class="navbar-brand" href="#"><img src="./image/L_House_of_Laederach_RGB 1.png" alt="House_of_Laederach"></a>
+              <a class="nav-link active" href="#">Configuration</a>
+              <div class="icon cart-icon">
+                  <a class="header-cart" href="#">
+                    <svg width="30" height="28" viewBox="0 0 30 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M29.9241 6.82262L24.7893 18.4475C24.6436 18.7818 24.3103 18.9989 23.9412 19H9.82603C9.40877 19.0007 9.04255 18.7263 8.93164 18.3298L4.32082 1.90746L4.29889 1.82579H0.926064C0.414613 1.82579 0 1.41707 0 0.912902C0 0.408731 0.414613 1.88982e-05 0.926064 1.88876e-05H4.991C5.40945 -0.00262422 5.77742 0.272383 5.88782 0.670267L10.4986 17.1022L10.5206 17.1838H23.3198L27.5894 7.5217L27.6552 7.37035H13.4815C12.9879 7.34539 12.6006 6.94354 12.6006 6.45626C12.6006 5.96899 12.9879 5.56714 13.4815 5.54218H29.0784C29.3886 5.54144 29.6782 5.69503 29.8485 5.95058C30.0192 6.21081 30.0475 6.53763 29.9241 6.82262Z" fill="#612000"></path>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.19311 24.5367C7.58317 23.6025 8.49809 22.9958 9.5104 23C10.886 23.0057 11.9986 24.1218 12 25.4974C12.001 26.5097 11.3915 27.4227 10.4561 27.8099C9.52076 28.197 8.44424 27.9819 7.72954 27.2649C7.01484 26.548 6.80305 25.4708 7.19311 24.5367ZM8.75223 25.8125C8.87975 26.1183 9.17905 26.3171 9.5104 26.316C9.72728 26.316 9.93524 26.2297 10.0883 26.0761C10.2415 25.9225 10.3271 25.7143 10.3264 25.4974C10.3264 25.166 10.1267 24.8674 9.82049 24.7408C9.51426 24.6143 9.16195 24.6848 8.92802 24.9194C8.6941 25.1541 8.6247 25.5067 8.75223 25.8125Z" fill="#612000"></path>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M24.492 23C25.8042 22.999 26.8953 24.0082 26.9944 25.3147C27.0377 25.9681 26.8277 26.6131 26.4078 27.1161L26.3844 27.1395C25.9568 27.6391 25.348 27.9486 24.6919 28H24.4894C23.5106 27.9919 22.6258 27.4164 22.2227 26.5257C21.8197 25.635 21.9719 24.5916 22.6127 23.8528C23.0477 23.347 23.6698 23.0393 24.3363 23H24.492ZM23.6821 25.5039C23.6821 25.9548 24.0482 26.3204 24.4998 26.3204C24.9514 26.3204 25.3175 25.9548 25.3175 25.5039C25.3175 25.053 24.9514 24.6874 24.4998 24.6874C24.0482 24.6874 23.6821 25.053 23.6821 25.5039Z" fill="#612000"></path>
+                        </svg>
+                  </a>
+              </div>
+            </nav>
+        </div>
+    </header>
+<div class="container">
+  <h2>Dynamic Tabs</h2>
+  <p>To make the tabs toggleable, add the data-toggle="tab" attribute to each link. Then add a .tab-pane class with a unique ID for every tab and wrap them inside a div element with class .tab-content.</p>
+
+  <ul class="nav nav-tabs">
+    <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
+    <li><a data-toggle="tab" href="#menu1">Menu 1</a></li>
+    <li><a data-toggle="tab" href="#menu2">Menu 2</a></li>
+    <li><a data-toggle="tab" href="#menu3">Menu 3</a></li>
+  </ul>
+
+  <div class="tab-content">
+    <div id="home" class="tab-pane fade in active">
+      <h3>HOME</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+    <div id="menu1" class="tab-pane fade">
+      <h3>Menu 1</h3>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+    <div id="menu2" class="tab-pane fade">
+      <h3>Menu 2</h3>
+      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+    </div>
+    <div id="menu3" class="tab-pane fade">
+      <h3>Menu 3</h3>
+      <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

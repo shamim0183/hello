@@ -1,0 +1,1008 @@
+/**
+COMMON CSS START
+**/
+.btn-previous:hover {
+    color: #000000;
+    background-color: #D5B375;;
+    border-color: #D5B375;
+}
+.btn-next:hover {
+    color: #D5B375;
+    background-color: #fff;
+    border-color: #D5B375;
+}
+.btn-primary-gold{
+    color: #000000;
+    background-color: #D5B375;
+    border-color: #D5B375;
+    padding: 11px 20px;
+    font-size: 24px;
+    line-height: 1.4;
+    font-weight: 500;
+}
+.btn-previous {
+    color: #000000;
+    border-color: #D5B375;
+    padding: 16px 40px;
+    font-size: 24px;
+    line-height: 1.4;
+    font-weight: 500;
+    width: 289px;
+    height: fit-content;
+}
+.btn-next {
+    color: #000000;
+    background-color: #D5B375;
+    border-color: #D5B375;
+    padding: 16px 40px;
+    font-size: 24px;
+    line-height: 1.4;
+    font-weight: 500;
+    width: 251px;
+    height: fit-content;
+}
+.btn-apply{
+    color: #000000;
+    background-color: #D5B375;
+    border-color: #D5B375;
+    padding: 16px 40px;
+    font-size: 24px;
+    line-height: 1.4;
+    font-weight: 500;
+    
+    height: fit-content;
+}
+
+a{
+    text-decoration: none;
+}
+.black-bg a, .black-bg  h2, .black-bg  p{
+    color: #ffffff;
+}
+td,th {
+    border-style: none;
+}
+.table tr td:last-child{
+    text-align: right;
+}
+.table tr th:last-child{
+    text-align: right;
+}
+.table-cart-heading th{
+    background: #EEE1C8;
+    padding: 22px 20px;
+    
+    font-size: 30px;
+    line-height: 1.2;
+    border: 1px solid #EEE1C8;
+    
+    
+    
+}
+table.table {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.table-cart-body th {
+
+    padding: 40px 20px;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: normal;
+}
+.table-cart-body td {
+    
+    padding: 40px 20px;
+    font-size: 20px;
+    line-height: 1.2;
+}
+.table-cart-body th{
+    color: #612000;
+}
+.table > :not(:last-child) > :last-child > * {
+    border-bottom-color: transparent;
+}
+.price-table-padding{
+    width: 100%;
+    background: #FBF7F1;
+    border-radius: 4px;
+}
+.price-table-padding th{
+    padding: 20px;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: normal;
+}
+.price-table-padding td{
+    padding:  20px;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: right;
+    
+}
+.mb-100{
+    margin-bottom: 100px;
+}
+.mb-120{
+    margin-bottom: 120px;
+}
+.mt-30{
+    margin-top: 30px;
+}
+.mb-45{
+    margin-bottom: 45px;
+}
+h4.billing-title {
+    color: #612000;
+    font-size: 30px;
+    line-height: 1.2;
+    margin-bottom: 36px;
+}
+/**
+COMMON CSS END
+**/
+
+/**
+HEADER SECTION START
+**/
+.navbar-light .navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.navbar-toggler{
+    border: none;
+    
+}
+
+.navbar-expand-lg .navbar-toggler {
+    display: block;
+}
+a.navbar-brand {
+    width: 200px;
+}
+.nav-scroller.text-center {
+    padding: 15px 0;
+}
+.background-img-content.d-flex.justify-content-center.align-items-center {
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.btn-gold{
+    color: #000000;
+    background-color: #D5B375;
+    border-color: #D5B375;
+    padding: 14px 0;
+    font-size: 16px;
+    line-height: 1.4;
+    font-weight: 500;
+    width: 250px;
+    height: fit-content;
+}
+
+/**
+NAV SECTION START
+**/
+a:hover{
+    color: #ffffff;
+}
+ul>li>a{
+    display: block;
+}
+.rounded-circle {
+    width: 70%;
+    padding: 12px;
+    border-color: #ffffff;
+    margin: 0 auto;
+}
+.icon-box-content  {
+    color: #ffffff;
+    
+}
+.inner-content h1 {
+    color: #ffffff;
+    margin-bottom: 40px;
+}
+.inner-content p {
+    color: #D5B375;
+    font-size: 18px;
+    line-height: 1.4;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+.background-img-content.d-flex.justify-content-center.align-items-center {
+    position: relative;
+    margin-bottom: 50px;
+}
+a.rotate-text {
+    transform: rotate(90deg);
+    position: fixed;
+    right: -16px;
+    bottom: 48vh;
+    margin-bottom: 0px;
+    color: #ffffff;
+    background-color: #D5B375;
+    padding: 0 5px;
+    text-decoration: none;
+    font-weight: 600;
+    z-index: 1;
+}
+.bg-color{
+    background-color: #D5B375;
+}
+.customize .pb-sm-5{
+    padding-bottom: 2rem !important;
+}
+ul.list-inline {
+    margin-bottom: 0;
+}
+/**
+NAV SECTION END
+**/
+/**
+HEADER SECTION END
+**/
+.white-bg {
+    background-color: #ffffff;
+}
+.customize .w-30 {
+    width: 55%;
+}
+p.d-inline-block.w-30 {
+    border-bottom: 1px solid #D5B375;
+}
+.customize.row.col-4.text-center.justify-content-center.gy-5 {
+    width: 25%;
+}
+.customize h4 {
+    font-size: 18px;
+    line-height: 1.2;
+}
+.customize.row.col-4.text-center.justify-content-center {
+    width: 27%;
+    row-gap: 52px;
+}
+p.d-inline-block.w-30.pb-3.ps-0.pe-0.align-top.pb-sm-5 {
+    height: 25%;
+}
+main.main-section h3 {
+    color: #D5B375;
+}
+/**
+CUSTOMIZE SECTION START
+**/
+.price-padding{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.price-contact{
+    position: fixed;
+    top: 325px;
+    
+}
+.form-wizard-step{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.form-wizard-step p{
+   margin-bottom: 0;
+   color: #000000;
+}
+.form-wizard-icon {
+    width: 25%;
+    margin-right: 5px;
+}
+.configuration-form ul li.nav-item {
+    width: 25%;
+    background: #FBF7F1;
+    font-size: 14px;
+    line-height: 1.2;
+}
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #000000;
+    background-color: #EEE1C8;
+    border-bottom: 2px solid #612000;
+}
+.nav-pills .nav-link{
+    border-radius: 0;
+}
+header.configuration {
+    height: 111px;
+    box-shadow: 0px 3px 10px 0px rgb(0 0 0 / 50%);
+    margin-bottom: 84px;
+}
+.nav a.nav-link.active {
+    color: #D5B375;
+    border-bottom: 2px solid #D5B375;
+    padding: 42px 0;
+}
+.configuration-form h3 {
+    margin-bottom: 80px;
+    font-size: 40px;
+    line-height: 1.2;
+    font-weight: 500;
+}
+.configuration-form .mb-5 {
+    margin-bottom: 5rem !important;
+}
+h4.title {
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: normal;
+    margin-bottom: 80px;
+}
+
+.c_type label span {
+    text-align: center;
+    display: block;
+    padding-bottom: 25px;
+    
+}
+.c_type label {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+.chocolate-types label {
+    width: 30%;
+    color: #000;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    padding: 19px 15px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    cursor: pointer;
+    /* display: flex; */
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.focus-color{
+    position: relative;
+}
+.focus-color:focus-within{
+    outline: 4px solid #D5B375;
+}
+.chocolate-types span{
+    width: 100%;
+    float: left;
+    align-self: center;
+    margin-top: 20px;
+}
+.chocolate-types input[type="radio"] {
+    float: right;
+    
+}
+.chocolate-types input[type="radio"]:checked:after {
+    content: "";
+    width: 12px;
+    height: 12px;
+    background: #d5b375;
+    border-radius: 100%;
+    position: absolute;
+}
+.chocolate-types input[type="radio"]:checked:before {
+    content: "";
+    position: absolute;
+    right: 13px;
+    top: 16px;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #d5b375;
+    border-radius: 100%;
+    background: #fff;
+}
+.chocolate-shape input[type="radio"] {
+    float: right;
+}
+.chocolate-shape input[type="radio"]:checked:after {
+    content: "";
+    width: 12px;
+    height: 12px;
+    background: #d5b375;
+    border-radius: 100%;
+    position: absolute;
+}
+.chocolate-shape input[type="radio"]:checked:before {
+    content: "";
+    position: absolute;
+    right: 13px;
+    top: 16px;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #d5b375;
+    border-radius: 100%;
+    background: #fff;
+}
+
+.gold-round-border{
+    position: relative;
+}
+.gold-round-border input[type="radio"]:checked:after {
+    content: "";
+    width: 12px;
+    height: 12px;
+    background: #d5b375;
+    border-radius: 100%;
+    position: absolute;
+}
+.gold-round-border input[type="radio"]:checked:before{
+    content: "";
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #d5b375;
+    border-radius: 100%;
+    background: #fff;
+}
+/* .chocolate-shape {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+    position: relative;
+}
+.chocolate-shape label {
+    width: 33%;
+} */
+.chocolate-shape label {
+    width: 33%;
+    color: #000;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    padding: 19px 15px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    cursor: pointer;
+    /* display: flex; */
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.chocolate-shape span{
+    width: 100%;
+    float: left;
+    align-self: center;
+    margin-top: 20px;
+}
+.chocolate-shape label img{
+    max-height: 100px;
+}
+.chocolate-ingredients h4 {
+    font-size: 36px;
+    line-height: 1.4;
+    font-weight: normal;
+}
+.chocolate-ingredients p {
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 300;
+    color: #000000;
+    margin-bottom: 40px;
+}
+.chocolate-ingredients label {
+    width: 28%;
+    color: #000;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    padding: 19px 15px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.chocolate-ingredients span{
+    width: 100%;
+    float: left;
+    align-self: center;
+    margin-top: 20px;
+}
+.chocolate-ingredients input[type="checkbox"] {
+    float: right;
+}
+.chocolate-ingredients input[type="checkbox"]:checked:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 16px;
+    right: 19px;
+    width: 6px;
+    height: 14px;
+    border: solid #d5b375;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg) !important;
+}
+.chocolate-ingredients input[type="checkbox"]:checked:before {
+    content: "";
+    position: absolute;
+    right: 13px;
+    top: 16px;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #d5b375;
+    background: #fff;
+
+   
+}
+.form-wizard-buttons {
+    
+    display: flex;
+    justify-content: space-between;
+}
+.form-wizard-buttons a.btn-gold {
+    
+    margin-right: 45px;
+}
+.border-gold{
+    color: #000000;
+    background-color: #ffffff;
+    border: 2px solid #D5B375;
+    padding: 22px 64px;
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 500;
+}
+.form-wizard-buttons a.border-gold {
+    float: left;
+    
+}
+.form-box {
+    margin-bottom: 120px;
+}
+
+.yes-content {
+    margin-bottom: 100px;
+}
+.mb-370{
+    margin-bottom: 370px;
+}
+.individual-msg input[type="radio"] {
+    margin: 0 5px;
+}
+.individual-msg label {
+    margin-right: 10px;
+}
+.mb-60{
+    margin-bottom: 60px;
+}
+.select-pickup{
+    margin-bottom: 100px;
+}
+.gold-text{
+    color: #D5B375;
+}
+.yes-content h4 {
+    font-size: 20px;
+    line-height: 1.4;
+    font-weight: 400;
+    margin-bottom: 60px;
+}
+.p-text  {
+    font-size: 20px;
+    line-height: 1.4;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+.p-color{
+    color: #96684B;
+}
+.mb-40{
+    margin-bottom: 40px;
+}
+p.dynamic-image-details {
+    font-size: 20px;
+    line-height: 1.4;
+}
+.confirm-label{
+    
+    color: #000000;
+    text-align: center;
+    
+    
+    padding: 19px 15px;
+    
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+.confirm-order span {
+    width: 100%;
+    float: left;
+    align-self: center;
+    margin-top: 20px;
+}
+
+.confirm-order label {
+    width: 28%;
+    color: #000;
+    text-align: center;
+    
+    border-radius: 8px;
+    padding: 19px 15px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    cursor: pointer;
+    /* display: flex; */
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.custom-radio:focus + label:before {
+	box-shadow: 0 0 4px 1px rgba(0, 0, 0, 1);
+}
+
+
+
+
+
+
+
+
+
+/**
+CUSTOMIZE SECTION END
+**/
+/**
+BILL SECTION START
+**/
+.padding-small-device{
+    padding: 0 21px;
+}
+/**
+BILL SECTION END
+**/
+/**
+CHECKOUT SECTION START
+**/
+.paymen-lable label{
+    width: 28%;
+    text-align: center;
+    cursor: pointer;
+}
+/**
+CHECKOUT SECTION END
+**/
+
+/**
+FOOTER SECTION START
+**/
+footer.black-bg {
+    background: #000000;
+    position: relative;
+}
+.footer-top {
+    padding: 20px 0;
+}
+.footer-logo {
+    width: 250px;
+    margin-bottom: 5px;
+}
+.wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    margin-top: 20px;
+}
+.btn-group-vertical {
+    row-gap: 20px;
+    width: 100%;
+}
+.btn-danger {
+    border-radius: 0;
+    border-color: #ffffff;
+    background-color: #000000;
+}
+.contact-form-btn:hover a{
+    color: #D5B375;
+    border-color: #D5B375;
+    background-color: #000;
+}
+a.btn.btn-outline-secondary {
+    width: 60%;
+    background-color: #6c757d;
+}
+.btn-outline-secondary:hover {
+    color: #D5B375;
+    background-color: #6c757d;
+    border-color: #D5B375;
+}
+.wrap-inner {
+    height: 205px;
+}
+a.footer {
+    bottom: 32vh;
+    position: absolute;
+}
+.padding-all th, .padding-all td {
+    padding: 10px 23px;
+}
+.padding-all{
+    background-color: #FBF7F1;
+    ;
+}
+.padding-all th {
+    
+    font-weight: normal;
+}
+.padding-all td {
+    font-weight: 500;
+    float: right;
+}
+.padding-all tr.colorfull-bg {
+    background: #EEE1C8;
+    padding: 10px;
+}
+
+
+.price-border{
+    background: #FBF7F1;
+    border: 2px solid #EEE1C8;
+    margin-bottom: 40px;
+}
+.price-border table{
+    width: 100%;
+}
+.contact-us-btn {
+    border: 2px solid #F3E8D6;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 14px 0;
+    text-align: center;
+    font-size: 24px;
+    line-height: 1.4;
+    background-color: #ffffff;
+    width: 100%;
+    color: #000000;
+}
+
+
+
+
+/**
+FOOTER SECTION END
+**/
+
+/* MEDIA QUERY */
+@media screen and (max-width: 992px){
+    .chocolate-types label {
+        
+        margin-bottom: 25px;
+        margin-right: 22px;
+        font-size: 12px;
+        line-height: 1.2;
+    }
+    .chocolate-shape label{
+        
+        margin-bottom: 25px;
+        margin-right: 15px;
+        font-size: 12px;
+        line-height: 1.2;
+    }
+    .chocolate-ingredients label{
+        width: 30%;
+        padding: 7px;
+        margin-bottom: 25px;
+        margin-right: 14px;
+        font-size: 12px;
+        line-height: 1.2;
+    }
+    h3.title {
+        font-size: 31px;
+        margin-bottom: 25px;
+    }
+    h4.form {
+        font-size: 19px;
+        line-height: 1.4;
+    }
+    p.form-content {
+        font-size: 14px;
+        line-height: 1.2;
+    }
+    
+    .price-contact{
+        position: relative;
+        margin-top: 25px;
+        top: 0;
+        
+    }
+    .form-box {
+        margin-bottom: 50px;
+    }
+    .btn-previous {
+        font-size: 12px;
+        width: 130px;
+        height: fit-content;
+        padding: 8px 10px;
+        
+    }
+    .btn-next {
+        font-size: 12px;
+        width: 120px;
+        height: fit-content;
+        padding: 8px 10px;
+        
+    }
+    
+    .confirm-order .confirm-oder-type label {
+        width: 50%;
+    }
+    .confirm-order .confirm-order-shape label {
+        width: 50%;
+    }
+    .paymen-lable label{
+        width: 15%;
+        
+    }
+    .btn-apply {
+        font-size: 12px;
+        width: 145px;
+        height: fit-content;
+        padding: 8px 10px;
+        
+    }
+    .chocolate-ingredients input[type="checkbox"]:checked:after {
+       
+        top: 5px;
+        right: 11px;
+       
+    }
+    .chocolate-ingredients input[type="checkbox"]:checked:before {
+        
+        right: 5px;
+        top: 5px;
+       
+    }
+    .chocolate-types input[type="radio"]:checked:before {
+        right: 13px;
+        top: 16px;
+    }
+    .chocolate-shape input[type="radio"]:checked:before {
+        right: 13px;
+        top: 16px;
+    }
+}
+@media screen and (max-width: 768px){
+    .chocolate-types label {
+        width: 43%;
+        
+    }
+    .chocolate-shape label{
+        width: 44%;
+       
+    }
+    .chocolate-ingredients label{
+        width: 28%;
+    }
+    h4.form {
+        font-size: 19px;
+        
+    }
+    p.form-content {
+        font-size: 14px;
+        
+    }
+    
+    h4.title {
+        font-size: 20px;
+    }
+    .confirm-order label {
+        width: 28%;
+    }
+    .confirm-order .confirm-oder-type label {
+        width: 100%;
+    }
+    .confirm-order .confirm-order-shape label {
+        width: 100%;
+    }
+    .btn-width .btn-next{
+        width: 100%;
+    }
+    .paymen-lable label{
+        width: 20%;
+        
+    }
+    .padding-small-device{
+        padding: 0 21px;
+    }
+    
+}
+@media screen and (max-width: 420px){
+    .chocolate-types label {
+        width: 100%;
+    }
+    .chocolate-shape label{
+        width: 44%;
+       
+    }
+    .chocolate-ingredients label{
+        width: 45%;
+    }
+    h4.form {
+        font-size: 19px;
+        
+    }
+    p.form-content {
+        font-size: 14px;
+       
+    }
+   
+    
+    .btn-width .btn-next{
+        width: 100%;
+    }
+    .paymen-lable label{
+        width: 30%;
+        
+    }
+    .padding-small-device{
+        padding: 0 20px;
+    }
+    
+}
+@media screen and (max-width: 375px){
+    .chocolate-types label {
+        width: 100%;
+    }
+    .chocolate-shape label{
+        width: 44%;
+       
+    }
+    .chocolate-ingredients label{
+        width: 44%;
+    }
+    h3.title {
+        font-size: 31px;
+        margin-bottom: 25px;
+    }
+    h4.form {
+        font-size: 19px;
+        
+    }
+    p.form-content {
+        font-size: 14px;
+        
+    }
+   
+    
+    .btn-previous {
+        font-size: 12px;
+        width: 130px;
+    }
+    .btn-next {
+        font-size: 12px;
+        width: 145px;
+    }
+    .confirm-order .confirm-oder-type label {
+        width: 100%;
+    }
+    .confirm-order .confirm-order-shape label {
+        width: 100%;
+    }
+    .confirm-order .confirm-order-ingredients  label {
+        width: 100%;
+    }
+    
+    .btn-width .btn-next{
+        width: 100%;
+    }
+    .paymen-lable label{
+        width: 30%;
+        
+    }
+    
+}

@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>customization</title>
+    
+    <!-- BOOTSTRAP CSS -->
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
+
+    <!-- CUSTOME CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body >
+    <header class="configuration d-flex align-items-center pt-2 pb-2">
+        <div class="container-fluid">
+            <nav class="nav align-items-center justify-content-evenly">
+                <a class="navbar-brand" href="index.html"><img class="img-fluid" src="./image/L_House_of_Laederach_RGB-1536x500.png" alt="House_of_Laederach"></a>
+              <a class="nav-link active" href="#">Configuration</a>
+              <div class="icon cart-icon">
+                  <a class="header-cart" href="#">
+                    <svg class="img-fluid" width="30" height="28" viewBox="0 0 30 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M29.9241 6.82262L24.7893 18.4475C24.6436 18.7818 24.3103 18.9989 23.9412 19H9.82603C9.40877 19.0007 9.04255 18.7263 8.93164 18.3298L4.32082 1.90746L4.29889 1.82579H0.926064C0.414613 1.82579 0 1.41707 0 0.912902C0 0.408731 0.414613 1.88982e-05 0.926064 1.88876e-05H4.991C5.40945 -0.00262422 5.77742 0.272383 5.88782 0.670267L10.4986 17.1022L10.5206 17.1838H23.3198L27.5894 7.5217L27.6552 7.37035H13.4815C12.9879 7.34539 12.6006 6.94354 12.6006 6.45626C12.6006 5.96899 12.9879 5.56714 13.4815 5.54218H29.0784C29.3886 5.54144 29.6782 5.69503 29.8485 5.95058C30.0192 6.21081 30.0475 6.53763 29.9241 6.82262Z" fill="#612000"></path>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.19311 24.5367C7.58317 23.6025 8.49809 22.9958 9.5104 23C10.886 23.0057 11.9986 24.1218 12 25.4974C12.001 26.5097 11.3915 27.4227 10.4561 27.8099C9.52076 28.197 8.44424 27.9819 7.72954 27.2649C7.01484 26.548 6.80305 25.4708 7.19311 24.5367ZM8.75223 25.8125C8.87975 26.1183 9.17905 26.3171 9.5104 26.316C9.72728 26.316 9.93524 26.2297 10.0883 26.0761C10.2415 25.9225 10.3271 25.7143 10.3264 25.4974C10.3264 25.166 10.1267 24.8674 9.82049 24.7408C9.51426 24.6143 9.16195 24.6848 8.92802 24.9194C8.6941 25.1541 8.6247 25.5067 8.75223 25.8125Z" fill="#612000"></path>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M24.492 23C25.8042 22.999 26.8953 24.0082 26.9944 25.3147C27.0377 25.9681 26.8277 26.6131 26.4078 27.1161L26.3844 27.1395C25.9568 27.6391 25.348 27.9486 24.6919 28H24.4894C23.5106 27.9919 22.6258 27.4164 22.2227 26.5257C21.8197 25.635 21.9719 24.5916 22.6127 23.8528C23.0477 23.347 23.6698 23.0393 24.3363 23H24.492ZM23.6821 25.5039C23.6821 25.9548 24.0482 26.3204 24.4998 26.3204C24.9514 26.3204 25.3175 25.9548 25.3175 25.5039C25.3175 25.053 24.9514 24.6874 24.4998 24.6874C24.0482 24.6874 23.6821 25.053 23.6821 25.5039Z" fill="#612000"></path>
+                        </svg>
+                  </a>
+              </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="chocolate-configuration">
+            <div class="container-fluid">
+                <div class="form-box">
+                    <div class="container">
+                        <div class="row">
+                            <div class=" col-sm-12 col-md-12 col-lg-8 ">
+                                <div class="configuration-form">
+                                    <form action="#">
+                                        <h3 class="title" >Chocolate configurator</h3>
+
+
+                                        
+                                       
+
+                                        <ul class="nav nav-pills mb-5 " id="pills-tab" role="tablist">
+                                            <li class="nav-item " role="presentation">
+                                            <div class="nav-link active form-wizard-step" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"             type="button"     role="tab" aria-controls="pills-home" aria-selected="true">
+                                                <div class="form-wizard-icon">
+                                                    <img class="img-fluid" src="./image/customize.png" alt="customize">
+                                                </div>
+                                                <p>Customize FrischSchoggi</p>
+                                            </div>
+                                            </li>                              
+                                            <li class="nav-item  " role="presentation">
+                                            <div class="nav-link form-wizard-step" id="pills-message-tab" data-bs-toggle="pill" data-bs-target="#pills-message"             type="button"     role="tab" aria-controls="pills-message" aria-selected="false">
+                                                <div class="form-wizard-icon">
+                                                    <img class="img-fluid" src="./image/msg.png" alt="customize">
+                                                </div>
+                                                <p>Individual message</p>
+                                            </div>
+                                            </li>
+                                            <li class="nav-item  " role="presentation">
+                                            <div class="nav-link form-wizard-step" id="pills-delivery-tab" data-bs-toggle="pill" data-bs-target="#pills-delivery"             type="button"     role="tab" aria-controls="pills-delivery" aria-selected="false">
+                                                <div class="form-wizard-icon">
+                                                    <img class="img-fluid" src="./image/van.png" alt="customize">
+                                                </div>
+                                                <p>Delivery</p>
+                                            </div>
+                                            </li>
+                                            <li class="nav-item  " role="presentation">
+                                            <div class="nav-link form-wizard-step" id="pills-confirm-tab" data-bs-toggle="pill" data-bs-target="#pills-confirm"             type="button"     role="tab" aria-controls="pills-confirm" aria-selected="false">
+                                                <div class="form-wizard-icon">
+                                                    <img class="img-fluid" src="./image/check.png" alt="checked">
+                                                </div>
+                                                <p>Confirm order</p>
+                                            </div>
+                                            </li>
+                                          </ul>
+                                          <div class="tab-content" id="pills-tabContent">
+                                            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                                                <fieldset>
+                                                    <h4 class="form mb-4">Which chocolate would you like?</h4>
+                                                    <div class="form-group chocolate-types">
+                                                        
+                                                            
+                                                                <label class="focus-color" >
+                                                                
+                                                                    <input type="radio" name="c_type"  id="css"> 
+                                                                    <img class="img-fluid img-responsive" src="./image/Laderach_Milchschokolade 1.jpg" alt="chocolate">
+                                                                    <span>Milk chocolate</span>
+                                                                </label>
+                                                            
+                                                            
+                                                                <label  class="focus-color" >
+                                                                    <input type="radio" name="c_type"  id="css">
+                                                                    <img class="img-fluid img-responsive" src="./image/Laderach_Milchschokolade dark .jpg" alt="chocolate">
+                                                                    <span>Dark chocolate</span>
+                                                                </label>
+                                                            
+                                                            
+                                                                <label  class="focus-color" >
+                                                                    <input type="radio" name="c_type" id="css">
+                                                                    <img class="img-fluid img-responsive" src="./image/Laderach_Milchschokolade white.jpg" alt="chocolate">
+                                                                    <span>White chocolate</span>
+                                                                </label>
+                                                           
+                                                            
+                                                       
+                                                    </div> 
+                                                    <div class="form-group chocolate-shape">
+                                                        <h4 class="form mb-4">What shape and size do you want?</h4>
+                                                        
+                                                            <label class="focus-color" >
+                                                                <input type="radio"  name="c_type"  id="">
+                                                                <img class="img-fluid img-responsive" src="./image/500g.png" alt="shape">
+                                                                <span>Large heart for CHF 42.90 (ca. 25 x 25cm)</span>
+                                                            </label>
+                                                            <label class="focus-color" >
+                                                                <input type="radio"  name="c_type"  id="">
+                                                                <img class="img-fluid img-responsive" src="./image/300g.png" alt="shape">
+                                                                <span>Small heart for CHF 19.90 (ca. 15 x 18cm)</span>
+                                                            </label>
+                                                            <label class="focus-color" >
+                                                                <input type="radio"  name="c_type"  id="">
+                                                                <img class="img-fluid img-responsive" src="./image/800g.png" alt="shape">
+                                                                <span>Large plate for CHF 66.00 (ca. 28 x 33cm)</span>
+                                                            </label>
+                                                            <label class="focus-color" >
+                                                                <input type="radio"  name="c_type"  id="">
+                                                                <img class="img-fluid img-responsive" src="./image/200g.png" alt="shape">
+                                                                <span>Small plate for CHF 28.50 (ca. 12 x 23cm)</span>
+                                                            </label>
+
+                                                        
+                                                    </div>
+                                                    <div class="form-group chocolate-ingredients">
+                                                        <h4 class="form mb-3">Which ingredients would you like in your FrischSchoggi ™?
+
+                                                        </h4>
+                                                        <p > (recommend a maximum of 3 - if you do not select any ingredients, we will make the chocolate pure for you.)</p>
+                                                        
+                                                        <div class="row">
+
+                                                            <label   class="focus-color" >
+                                                                <input type="checkbox"  name="c_type"  id="">
+                                                                <img class="img-fluid" src="./image/hazelnut.png" alt="fruit">
+                                                                <span>Caramelised hazelnuts</span>
+                                                            </label>
+                                                            <label   class="focus-color" >
+                                                                <input type="checkbox"  name="c_type"  id="">
+                                                                <img class="img-fluid" src="./image/Caramelised hazelnuts.png" alt="Caramelised hazelnuts">
+                                                                <span>Caramelised hazelnuts</span>
+                                                            </label>
+                                                            <label   class="focus-color" >
+                                                                <input type="checkbox"  name="c_type"  id="">
+                                                                <img class="img-fluid" src="./image/Finest caramel crunch.jpg" alt="Finest caramel crunch">
+                                                                <span>Finest caramel crunch</span>
+                                                            </label>
+                                                            <label   class="focus-color" >
+                                                                <input type="checkbox"  name="c_type"  id="">
+                                                                <img class="img-fluid" src="./image/Finest caramel crunch.png" alt="Crunchy Cornflakes">
+                                                                <span>Crunchy Cornflakes</span>
+                                                            </label>
+                                                            <label   class="focus-color" >
+                                                                <input type="checkbox"  name="c_type"  id="">
+                                                                <img class="img-fluid" src="./image/Fruity cranberries.jpg" alt="Fruity cranberries">
+                                                                <span>Fruity cranberries</span>
+                                                            </label>
+                                                            <label   class="focus-color" >
+                                                                <input type="checkbox"  name="c_type"  id="">
+                                                                <img class="img-fluid" src="./image/Crispy pistachios.jpg" alt="Crispy pistachios">
+                                                                <span>Crispy pistachios</span>
+                                                            </label>
+                                                            <label   class="focus-color" >
+                                                                <input type="checkbox"  name="c_type"  id="">
+                                                                <img class="img-fluid" src="./image/Caramelised hazelnuts red.jpg" alt="Caramelised hazelnuts">
+                                                                <span>Caramelised hazelnuts</span>
+                                                            </label>
+                                                            <label   class="focus-color" >
+                                                                <input type="checkbox"  name="c_type"  id="">
+                                                                <img class="img-fluid" src="./image/Finest coconut flakes.jpg" alt="Finest coconut flakes">
+                                                                <span>Finest coconut flakes</span>
+                                                            </label>
+                                                            <label   class="focus-color" >
+                                                                <input type="checkbox"  name="c_type"  id="">
+                                                                <img class="img-fluid" src="./image/Colourful chocolate.jpg" alt="Colourful chocolate
+                                                                lentils">
+                                                                <span>Colourful chocolate
+                                                                    lentils</span>
+                                                            </label>
+                                                        </div>
+                                                        
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-lg-11">
+                                                            <div class="form-wizard-buttons justify-content-end">
+                                                                <a class="btn btn-next" href="#" role="button" onclick="document.getElementById('pills-message-tab').click();">Next Step <span>
+                                                                    <svg class="img-fluid" width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path d="M1.29006 9.87998L5.17006 5.99998L1.29006 2.11998C0.900059 1.72998 0.900059 1.09998 1.29006 0.70998C1.68006 0.31998 2.31006 0.31998 2.70006 0.70998L7.29006 5.29998C7.68006 5.68998 7.68006 6.31998 7.29006 6.70998L2.70006 11.3C2.31006 11.69 1.68006 11.69 1.29006 11.3C0.910059 10.91 0.900059 10.27 1.29006 9.87998Z" fill="black"/>
+                                                                    </svg>
+                                                                    </span>
+                                                                </a>
+                                                            </div>    
+                                                        </div>
+                                                    </div>  
+                                                                            
+                                                </fieldset>
+
+                                            </div>
+                                            <div class="tab-pane fade" id="pills-message" role="tabpanel" aria-labelledby="pills-message-tab">
+
+                                                
+                                                
+                                                
+                                                
+                                                <fieldset>
+                                                    <div class="form-group individual-msg mb-60">
+                                                        <h4 class="title">Do you want to add individual message?</h4>
+                                                        
+                                                            <label class="gold-round-border">
+                                                                <input type="radio" name="individual_msg" id="individualMsgYes" onclick="myFunction()" >
+                                                                <span>Yes</span>
+                                                            </label>
+                                                            
+                                                            <label class="gold-round-border">
+                                                               <input type="radio" name="individual_msg" id="individualMsgNo" onclick="myFunction()">
+                                                                <span> No </span>
+                                                            </label>
+
+                                                       
+                                                    </div>
+
+                                                    <div class="row" id="show-content" style="display: none;">
+                                                        <div class=" col-12">
+                                                            <div class="yes-content">
+                                                                <h4 class="">Labelling only possible in combination with your own FrischSchoggi™. You will find already labelled FrischSchoggi™ hearts from our standard assortment in <span class="gold-text">  unserem Online Shop.</span></h4>
+                                                            </div>
+                                                            <p  class=" p-text p-color">Our Confiseure label according to your text specifications:</p>
+                                                            <div class="row">
+                                                                <div class="col-sm-1 col-md-3 col-lg-3 ">
+                                                                    <div class="dynamic-image mb-40 text-center">
+                                                                        <img src="./image/love.jpg" alt="love">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <p class="dynamic-image-details mb-60">Lid "Heart - large" for CHF 11.50 (115g | 45 characters): <span class="p-color">This lid is made of white chocolate and is fixed to your FrischSchoggi™ heart with a drop of chocolate.</span> </p>
+                                                            
+                                                                    <div class="mb-4">
+                                                                        <span class="d-block mb-3">Your desired text on the "Heart - large":</span>
+                                                                        <textarea name="individual-msg" id="" class="form-control " placeholder="max. 45 characters with blanks"></textarea>
+                                                                    </div>
+                                                                    
+                                                                
+                                                            
+                                                        </div>
+                                                    </div>
+
+
+
+
+
+
+
+                                                    <div class="form-wizard-buttons">
+                                                        <a class="btn btn-previous" href="#" role="button" onclick="document.getElementById('pills-home-tab').click();"> <span>
+                                                            <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M6.70994 2.12002L2.82994 6.00002L6.70994 9.88002C7.09994 10.27 7.09994 10.9 6.70994 11.29C6.31994 11.68 5.68994 11.68 5.29994 11.29L0.709941 6.70002C0.319941 6.31002 0.319941 5.68002 0.709941 5.29002L5.29994 0.700021C5.68994 0.310021 6.31994 0.310021 6.70994 0.700021C7.08994 1.09002 7.09994 1.73002 6.70994 2.12002Z" fill="black"/>
+                                                            </svg>    
+                                                            </span>Previous Step
+                                                        </a>
+                                                        <a class="btn btn-next" href="#" role="button" onclick="document.getElementById('pills-delivery-tab').click();">Next Step <span>
+                                                            <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M1.29006 9.87998L5.17006 5.99998L1.29006 2.11998C0.900059 1.72998 0.900059 1.09998 1.29006 0.70998C1.68006 0.31998 2.31006 0.31998 2.70006 0.70998L7.29006 5.29998C7.68006 5.68998 7.68006 6.31998 7.29006 6.70998L2.70006 11.3C2.31006 11.69 1.68006 11.69 1.29006 11.3C0.910059 10.91 0.900059 10.27 1.29006 9.87998Z" fill="black"/>
+                                                            </svg>
+                                                            </span>
+                                                        </a>
+                                                    </div>   
+                                                </fieldset>
+
+
+                                            </div>
+                                            <div class="tab-pane fade" id="pills-delivery" role="tabpanel" aria-labelledby="pills-delivery-tab">
+
+
+                                                <fieldset>
+                                                    <div class="form-group individual-msg mb-60">
+                                                        <h4 class="title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut feugiat duis felis, sit. Id urna.</h4>
+                                                        
+
+                                                            <label class="gold-round-border">
+                                                                <input type="radio" name="individual_msg" id="individualMsgYes" onclick="myFunction()">
+                                                                <span>Delivery</span>
+                                                            </label>
+                                                            
+                                                            <label class="gold-round-border">
+                                                               <input type="radio" name="individual_msg" id="individualMsgNo" onclick="myFunction()">
+                                                                <span> Pick-Up</span>
+                                                            </label>
+                                                        
+                                                    </div>
+                                                    <div id="delivery-content" style="display: none;">
+                                                        <p>Please proceed to checkout to input your billing and shipping details for delivery.</p>
+                                                    </div>
+                                                    <div class="pickup-date-time mb-5">
+
+                                                    
+                                                                <div class="row">
+                                                                    <div class="col-lg-6">
+                                                                        <div class="row">
+
+                                                                            <label class="mb-3">
+                                                                                <p>Choose Date</p>
+                                                                                <input  type="date" name="pickup_date" id="datetime" class="form-control">
+                                                                            </label>
+                                                                        
+                                                                        
+                                                                            <label >
+                                                                                <p>Choose Date</p>
+                                                                                <input type="time" name="pickup_date" id="" class="form-control">
+                                                                            </label>
+                                                                        </div>
+
+                                                                    </div>
+                                                                </div>                                             
+                                                    </div>
+
+
+
+                                                    <div class="form-wizard-buttons">
+                                                        <a class="btn btn-previous" href="#" role="button" onclick="document.getElementById('pills-message-tab').click();"> <span>
+                                                            <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M6.70994 2.12002L2.82994 6.00002L6.70994 9.88002C7.09994 10.27 7.09994 10.9 6.70994 11.29C6.31994 11.68 5.68994 11.68 5.29994 11.29L0.709941 6.70002C0.319941 6.31002 0.319941 5.68002 0.709941 5.29002L5.29994 0.700021C5.68994 0.310021 6.31994 0.310021 6.70994 0.700021C7.08994 1.09002 7.09994 1.73002 6.70994 2.12002Z" fill="black"/>
+                                                            </svg>    
+                                                            </span>Previous Step
+                                                        </a>
+                                                        <a class="btn btn-next" href="#" role="button" onclick="document.getElementById('pills-confirm-tab').click();">Next Step <span>
+                                                            <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M1.29006 9.87998L5.17006 5.99998L1.29006 2.11998C0.900059 1.72998 0.900059 1.09998 1.29006 0.70998C1.68006 0.31998 2.31006 0.31998 2.70006 0.70998L7.29006 5.29998C7.68006 5.68998 7.68006 6.31998 7.29006 6.70998L2.70006 11.3C2.31006 11.69 1.68006 11.69 1.29006 11.3C0.910059 10.91 0.900059 10.27 1.29006 9.87998Z" fill="black"/>
+                                                            </svg>
+                                                            </span>
+                                                        </a>
+                                                    </div> 
+                                                </fieldset>
+                                            </div>
+                                            <div class="tab-pane fade" id="pills-confirm" role="tabpanel" aria-labelledby="pills-confirm-tab">
+
+                                                <fieldset>
+                                                    <div class="confirm-order">
+                                                        <div class="confirm-oder-type">
+                                                            <h4 class="mb-4">Selected chocolate</h4>
+                                                            <label>
+                                                                <img class="img-fluid" src="./image/Laderach_Milchschokolade 1.jpg" alt="chocolate">
+                                                                <span >Milk chocolate</span>
+                                                            </label>
+                                                        </div>
+                                                        <div class="confirm-order-shape">
+                                                            <h4 class="mb-4">Selected shape</h4>
+                                                            <label>
+                                                                <img class="img-fluid" src="./image/500g.png" alt="shape">
+                                                                <span>Large heart for CHF 42.90 (ca. 25 x 25cm)</span>
+                                                            </label>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-lg-9">
+                                                                <div class="confirm-order-ingredients ">
+                                                                    <h4 class="mb-4">Selected ingredients</h4>
+                                                                    <div class="row">
+                                                                        <label>
+                                                                            <img class="img-fluid" src="./image/Finest caramel crunch.jpg" alt="caramel crunch">
+                                                                            <span>Caramelised hazelnuts</span>
+                                                                        </label>
+                                                                        <label>
+                                                                            <img class="img-fluid" src="./image/Caramelised hazelnuts.jpg" alt="Caramelised hazelnuts">
+                                                                            <span>Crunchy Cornflakes</span>
+                                                                        </label>
+                                                                        <label>
+                                                                            <img class="img-fluid" src="./image/Crispy pistachios.jpg" alt="Crispy pistachios">
+                                                                            <span>Fruity cranberries</span>
+                                                                        </label>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="customize-labelling mb-100">
+                                                        <p class="h4 mb-40">Customized labelling</p>
+                                                        <textarea class="form-control" name="customize-label" id="" cols="30" rows="3" placeholder="Lorem ipsum dolor sit amet, consectetur adipiscing elit."></textarea>
+                                                    </div>
+                                                    <div class="form-wizard-buttons">
+                                                        <a class="btn btn-previous" href="#" role="button" onclick="document.getElementById('pills-delivery-tab').click();"> <span>
+                                                            <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M6.70994 2.12002L2.82994 6.00002L6.70994 9.88002C7.09994 10.27 7.09994 10.9 6.70994 11.29C6.31994 11.68 5.68994 11.68 5.29994 11.29L0.709941 6.70002C0.319941 6.31002 0.319941 5.68002 0.709941 5.29002L5.29994 0.700021C5.68994 0.310021 6.31994 0.310021 6.70994 0.700021C7.08994 1.09002 7.09994 1.73002 6.70994 2.12002Z" fill="black"/>
+                                                            </svg>    
+                                                            </span>Previous Step
+                                                        </a>
+                                                        <a class="btn btn-next" href="bill.html" role="button">Next Step <span>
+                                                            <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M1.29006 9.87998L5.17006 5.99998L1.29006 2.11998C0.900059 1.72998 0.900059 1.09998 1.29006 0.70998C1.68006 0.31998 2.31006 0.31998 2.70006 0.70998L7.29006 5.29998C7.68006 5.68998 7.68006 6.31998 7.29006 6.70998L2.70006 11.3C2.31006 11.69 1.68006 11.69 1.29006 11.3C0.910059 10.91 0.900059 10.27 1.29006 9.87998Z" fill="black"/>
+                                                            </svg>
+                                                            </span>
+                                                        </a>
+                                                    </div> 
+                                                </fieldset>
+                                            </div>
+                                          </div>
+
+                                    </form>
+                                </div>
+                            </div>
+                            <div class=" col-sm-12 col-md-12 col-lg-3">
+                                <div class="price-padding ">
+                                    <div class="price-contact">
+                                        <div class="price-border">
+                                            <table class="padding-all">
+                                                
+                                                    <tr>
+                                                        <th>Lorem Ipsum</th>
+                                                        <td> CHF 4.20</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Lorem Ipsum</th>
+                                                        <td> CHF 4.20</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Lorem Ipsum</th>
+                                                        <td> CHF 4.20</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Lorem Ipsum</th>
+                                                        <td> CHF 4.20</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Lorem Ipsum</th>
+                                                        <td> CHF 4.20</td>
+                                                    </tr>                          
+                                                <tr class="colorfull-bg">
+                                                    <th>Total</th>
+                                                    <td> CHF 21.00</td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                        <div class="contact-us">
+                                            <a class="btn contact-us-btn" href="">Contact Us</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="black-bg">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-4 col-lg-4 mb-3 ">
+                        <div class="footer-logo">
+                            <a class="footer-brand" href="#"><img class="img-fluid" src="./image/L_House_of_Laederach_RGB 1.png" alt="House_of_Laederach"></a>
+
+                        </div>
+                        <h2>Besuchen Sie uns:</h2>
+                        <div class="address-details">
+                            <p>Grabenstrasse 6
+                            </p>
+                            <p>
+                                8865 Bilten
+                            </p>
+                            <div class="btn-group-vertical">
+                                <a href="tel:+41 55 645 44 55">+41 55 645 44 55</a>
+                                <a href="mailto:houseofladerach@laderach.com">houseofladerach@laderach.com</a>
+                                <div class="contact-form-btn">
+                                    <a href="" class="btn btn-danger">contact form</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-4 col-lg-4 mb-3 ">
+                        <div class="wrap">
+                            <div class="wrap-inner">
+                                <h2>Up to date</h2>
+                                <div class="btn-group-vertical">
+                                    <a href="#">Events at laderach</a>
+                                    <a href="#">Career at laderach</a>
+                                    <a href="#" class="btn btn-outline-secondary">Subscribe to Newsletter <span>
+                                        <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1.29006 9.87998L5.17006 5.99998L1.29006 2.11998C0.900059 1.72998 0.900059 1.09998 1.29006 0.70998C1.68006 0.31998 2.31006 0.31998 2.70006 0.70998L7.29006 5.29998C7.68006 5.68998 7.68006 6.31998 7.29006 6.70998L2.70006 11.3C2.31006 11.69 1.68006 11.69 1.29006 11.3C0.910059 10.91 0.900059 10.27 1.29006 9.87998Z" fill="#ffffff"/>
+                                        </svg>
+                                        </span>
+                                    </a>
+                                </div>
+                            
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-4 col-lg-4 mb-3 ">
+                        <div class="wrap">
+                            <div class="wrap-inner">
+                                <h2>Legal</h2>
+                                <div class="btn-group-vertical">
+                                    <a href="#">Privacy & Cookie Policy</a>
+                                    <a href="#">Terms of Service</a>
+                                    <a href="#">Right of withdrawal</a>
+                                    <a href="#">Imprint</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="footer-bottom">
+            <div class="container">
+                <p class="text-center pb-3 mb-0">Copyright © 2022 Läderach (Switzerland) AG. All rights reserved </p>
+            </div>
+        </section>
+        <a href="#" class="rotate-text footer">Events</a>
+    </footer>
+
+    <!-- BOOTSTRAP JS -->
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
+    
+
+    <script>
+        function myFunction(){
+            var x = document.getElementById("show-content")
+            if (x.style.display === "none") {
+                x.style.display = "block";
+                } else {
+                x.style.display = "none";
+                }
+            var y = document.getElementById("delivery-content")
+            if (y.style.display === "none") {
+                y.style.display = "block";
+                } else {
+                y.style.display = "none";
+                }
+           
+        }
+        
+        
+        
+        
+    </script>
+</body>
+</html>
